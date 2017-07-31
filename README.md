@@ -11,3 +11,5 @@ Enter "seo" into the "Namespace" field; enter "unique_url" into the key field; <
 For the value field, enter the destination url of the page for canonicalization.<br>
 The click the "Save" button.<br>
 Go to the product page and check the source code to make sure the page has been properly canonicalized.<br><br>
+
+The code has been developed with help from Jason at freakdesign.com.au.
