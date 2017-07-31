@@ -8,3 +8,6 @@ This code is written for the Symmetry theme from cleanthemes.co.uk.<br><br>
 Once the code is deployed into the theme liquid, individual product pages can be updated with the metafield.<br>
 A metafield editor is required to make any edits, ShopifyFD is recommended.<br>
 Enter "seo" into the "Namespace" field; enter "unique_url" into the key field; <br>
+For the value field, enter the destination url of the page for canonicalization.<br>
+The click the "Save" button.<br>
+Go to the product page and check the source code to make sure the page has been properly canonicalized.<br><br>
