@@ -1,57 +1,9 @@
-{% if template contains "product" %}
-  <link rel="canonical" href="{{ product.metafields.seo.unique_url }}" />
-  {% else %}
-<link rel="canonical" href="{{ canonical_url }}" />
-{% endif %}
-
-{% if template contains "product" %}
-  <link rel="canonical" href="{{ product.metafields.seo.unique_url }}" />
-{% unless template contains "collection" %}
-<link rel="canonical" href="{{ canonical_url }}" />
-{% endif %}
-
-
-{% unless template contains "product" %}
-  <link rel="canonical" href="{{ product.metafields.seo.unique_url }}" />
-  {% endunless %}
-<link rel="canonical" href="{{ canonical_url }}" />
-
-    {% if sca_product_variantCount == 1 and product-detail.compare_at_price_max > product-detail.price_min %}
-
-{% if template contains "product" %}
-{% if product.metafields.seo.unique_url == "" %}
-<link rel="canonical" href="{{ canonical_url }}" />
-{% else %}
-<link rel="canonical" href="{{ product.metafields.seo.unique_url }}" />
-{% endif %}
-{% else %}
-<link rel="canonical" href="{{ canonical_url }}" />
-{% endif %}
-
-{% if template contains "product" %}
-<link rel="canonical" href="{{ product.metafields.seo.unique_url }}" />
-{% else %}
-{% if product.metafields.seo.unique_url == "" %}
-<link rel="canonical" href="{{ canonical_url }}" />
-{% endif %}
-{% else %}
-<link rel="canonical" href="{{ canonical_url }}" />
-{% endif %}
-
-{% if template contains 'product' %}
+  {% if template contains 'product' %}
   {% if product.metafields.seo.unique_url == blank %}
     <link rel="canonical" href="{{ canonical_url }}" />
   {% else %}
     <link rel="canonical" href="{{ product.metafields.seo.unique_url }}" />
   {% endif %}
-{% else %}
+  {% else %}
   <link rel="canonical" href="{{ canonical_url }}" />
-{% endif %}
-
-  <div align="center">
-  <table><tr><td style="vertical-align: top;"><div class="g-post" data-href="https://plus.google.com/105761371992924524664/posts/N4EAdXk5K9h"></div></td>
-    <td style="vertical-align: top;">  <div class="g-post" data-href="https://plus.google.com/111888849189560974282/posts/dHiTH1znr5z"></div></td>
-    <td style="vertical-align: top;"><div class="g-post" data-href="https://plus.google.com/111888849189560974282/posts/2jRMqnEzUyc"></div></td>
-    </tr></table>
-  </div> 
-  
+  {% endif %}
