@@ -22,6 +22,6 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 Code is provided as is. May or may not work for all themes and versions. 
-Use at your own risk.<br>
+Use at your own risk.
 
 For more information, please refer to <https://unlicense.org>
